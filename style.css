@@ -5,10 +5,16 @@
 
 html {
   font-family: sans-serif;
+  }
+
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
 }
 
 .container {
   max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
+  
 }
