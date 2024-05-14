@@ -1,11 +1,15 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
-  }
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal
+}
 
 body {
   background-image: url(background.jpg);
@@ -16,5 +20,5 @@ body {
   max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
-  
+
 }
