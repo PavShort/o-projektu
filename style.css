@@ -9,27 +9,21 @@ html {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #e0dbbd;
+  color: #263E01;
 }
 
-body {
-  background-color: #2D55A5;
-
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0.8rem;
-
+.header {
+  background-image: url(pexels-eva-bronzini-7965380.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 500px 0;
 }
 
 .menu {
   margin: 0;
   padding: 0.8rem;
   text-align: center;
-  background-color: #e0dbbd;
-  border-radius: 8px;
 }
 
 .menu li {
@@ -37,45 +31,60 @@ body {
 }
 
 .menu a {
-  color: #7C8792;
-  color: black;
+  color: #263E01;
   text-decoration: none;
   display: inline-block;
   padding: 1rem 2rem;
 }
 
 .menu a:hover {
-  background-color: #2D55A5;
-  }
+  color: #6C8609;
+}
 
 h1 {
   text-align: center;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
-.banner {
+.o_nas {
   display: flex;
-  justify-content: center;
-  margin-top: 0.8rem;
-}
-
-.banner_img {
-  max-width: 85%;
-  border-radius: 8px;
-}
-
-.popis {
-  line-height: 1.6;
-  text-align: justify;
-  margin: 3rem;
-}
-
-.fotografie {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .mp_img {
-  max-width: 40%;
-  border-radius: 50%;
+  width: 15%;
+  border-radius: 30px;
+}
+
+.background_onas {
+  background-image: url(pexels-eva-bronzini-7965378.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 300px;
+}
+
+.popis_onas {
+  text-align: center;
+  margin: 50px 10px;
+}
+
+.background_oprojektu {
+  background-image: url(pexels-eva-bronzini-7965432.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 400px;
+}
+
+.header_oprojektu {
+  padding-top: 300px;
+}
+
+.popis_oprojektu {
+  padding: 0 350px;
+  line-height: 1.6;
+  text-align: justify;
 }
